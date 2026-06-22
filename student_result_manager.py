@@ -16,6 +16,8 @@ while True:
         name=input("Enter student name: ")
         marks=marks(input("Enter the marks: "))
         student[name]=marks
-        print(f"{name} Successfully added !)
+        print(f"{name} Successfully added !")
+              
+    #          
 
 

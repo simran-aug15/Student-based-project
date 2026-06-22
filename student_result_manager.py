@@ -22,11 +22,18 @@ while True:
     elif choice=="2":
         if not student:
             print("No student found! ")
-    else:
-        for name, marks in student.items():
+        else:
+          for name, marks in student.items():
             print(name, ":",marks)  
 
-    
+    #check result
+    elif choice=="3":
+      name = input("Enter student name: ")
+
+      if name in student:
+        print("Marks:", student[name])
+      else:
+        print("Student not found")
                      
 
 

@@ -24,6 +24,10 @@ while True:
             print("No student found! ")
     else:
         for name, marks in student.items():
-            print(name, ":",marks)               
+            print(name, ":",marks)  
+
+    
+                     
 
 
+       

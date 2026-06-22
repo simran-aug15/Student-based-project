@@ -10,3 +10,5 @@ try:
         for line in file:
             website, pwd=line.strip().split(":")
             passwords[website] =pwd
+except:
+    pass            

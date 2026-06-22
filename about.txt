@@ -1,6 +1,6 @@
 conditional
-dictionary
-loops
+dictionary - To store data
+loops -menu system
 
 Teacher:
 1. add student

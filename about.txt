@@ -7,3 +7,20 @@ Teacher:
 2.view all student
 3. check result
 4.exit
+
+
+------------------------
+Passwords Manager program
+Uses:
+1.dictionary
+2.loops
+3.conditional
+4.module: random
+5.file handling
+
+
+website : Passwords
+
+
+random modulefile read/write
+real world

@@ -18,6 +18,12 @@ while True:
         student[name]=marks
         print(f"{name} Successfully added !")
               
-    #          
+    #view student
+    elif choice=="2":
+        if not student:
+            print("No student found! ")
+    else:
+        for name, marks in student.items():
+            print(name, ":",marks)               
 
 

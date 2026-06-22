@@ -12,6 +12,9 @@ while True:
 
 
     #Add student
-    
+    if choice=="1":
+        name=input("Enter student name: ")
+        marks=marks(input("Enter the marks: "))
+        student[name]=marks
 
 

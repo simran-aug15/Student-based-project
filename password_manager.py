@@ -14,7 +14,7 @@ except:
     pass
 
 
-def generatoe_password():
+def generate_password():
     chars=string.ascii_letters + string.digits +"!@#$%&"
     password="".join(random.choice(chars) for _ in range(8))
     return password
@@ -38,6 +38,20 @@ while True:
         passwords[site]= pwd
 
         with open("passwords.txt","a")as file:
-            
+            file.write(f"{site}:{pwd}\n")
+
+        print("Saved! ")
+
+    elif choice=="2":
+        if not passwords:
+            print("No data")
+
+        else:
+            for site, pwd in passwords.items():
+                print(site, ":", pwd) 
+
+
+    elif choice=="3":
+        print("Generated password",generate_password())                           
 
 

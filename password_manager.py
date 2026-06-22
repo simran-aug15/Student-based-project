@@ -52,6 +52,10 @@ while True:
 
 
     elif choice=="3":
-        print("Generated password",generate_password())                           
+        print("Generated password",generate_password())  
+        break
+
+    else:
+        print("Invalid input")                         
 
 

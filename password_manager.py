@@ -11,4 +11,10 @@ try:
             website, pwd=line.strip().split(":")
             passwords[website] =pwd
 except:
-    pass            
+    pass
+
+
+def generatoe_password():
+    chars=string.ascii_letters + string.digits +"!@#$%&"
+    password="".join(random.choice(chars) for _ in range(8))
+    return password

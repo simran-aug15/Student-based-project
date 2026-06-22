@@ -55,6 +55,9 @@ while True:
         print("Generated password",generate_password())  
         break
 
+    elif choice=="4":
+        print("OK Bye")
+
     else:
         print("Invalid input")                         
 

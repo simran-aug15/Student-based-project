@@ -26,3 +26,18 @@ while True:
     print("2. View password")
     print("3. Generate password")
     print("Exit")
+
+
+    choice=input("Enter your choice : ")
+
+    if choice=="1":
+        site=input("enter website: ")
+        pwd=input("enter password: ")
+
+
+        passwords[site]= pwd
+
+        with open("passwords.txt","a")as file:
+            
+
+

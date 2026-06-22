@@ -1,4 +1,4 @@
-conditional
+conditional - To implement a logic
 dictionary - To store data
 loops -menu system
 

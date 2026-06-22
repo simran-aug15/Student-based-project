@@ -8,7 +8,7 @@ while True:
     print("3. Check Result")
     print("Exit")
 
-    choice=input("Enter your choice")
+    choice=input("Enter your choice: ")
 
 
     #Add student
